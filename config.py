@@ -23,20 +23,20 @@ APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002282569608")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "Explainer_AYU") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "1685470205")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002642523721")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "@nkp_pro") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "5053078995")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://AYUFILE:AYUFILE@cluster0.3melgul.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://nitesh:Ayush@cluster0.k1zk9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "MovieReview🍿")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/+UpFIUbvRlYw1OWI9")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/+-MyxpnfvIMlhNGQ1")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/ogW.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/ogI.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/ogI.jpg")
 #--------------------------------------------
 
